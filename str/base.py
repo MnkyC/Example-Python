@@ -28,3 +28,8 @@ print(f'Hello {name}')
 
 # 总结：字符串列表等序列结构用join，拼接长度<=20用+号，>20时高版本用f-string，低版本用format或join
 # 注意!!!复杂场景下，避免使用这些原生方法，应该用第三方库
+
+# 遍历
+s = 'qwert'
+for i, s in enumerate(s):
+    print('{}:{}'.format(i, s), end=' ')
